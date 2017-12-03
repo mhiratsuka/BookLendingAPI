@@ -149,7 +149,3 @@
 	}
    
 
-   async function createbook (request, reply) {
-   		return reply('createbook');
-   }
-
