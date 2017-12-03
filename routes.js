@@ -66,30 +66,11 @@
 	    path: '/books',
 	    config: {
 	    	validate: {
-	        		payload: bookSchema
+	        		payload: bookSchema;
 	        }
 	     },
 	    handler: async (request, reply) => {
 	    	 const book = request.payload;
-	   //  	 let addBook = {
-				//     isbn: request.payload.isbn,
-				//     title: request.payload.title,
-				//     author: request.payload.author,
-				//     genre: request.payload.genre,
-				//     publicationInfo: {
-				//               publishedDate: request.payload.publishedDate,
-				//               publisher: request.payload.publisher
-				//              },
-				//     availability: {
-				//              lendingsituation: request.payload.lendingsituation,
-				//              copy:{
-				//               copyid: request.payload.copyid,
-				//               edition: request.payload.edition,
-				//               borrower: request.payload.borrower
-				//              }
-				//    }
-				// }
-
 	    	 dbRef.child(`${book.isbn}`).set(book);
 	    	 return reply.redirect().location(books);
 	    }
@@ -105,7 +86,7 @@
 	    handler: async (request, reply) => {
 	    	 const bookupdate = request.payload;
 	    	 dbRef.child(`${bookupdate.isbn}`).update(bookupdate);
-	    	 return reply.redirect().location(books/`${updateBook.isbn}`);
+	    	 return reply.redirect().location(books/`${bookupdate.isbn}`);
 	    }
 	  },
 	  {//delete one of the books
