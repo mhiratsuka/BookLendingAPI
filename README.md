@@ -21,6 +21,7 @@ In NoSQL DB, books are stored with the following information.<br />
 &nbsp;&nbsp;------edition<br />
 &nbsp;&nbsp;------borrower}<br />
 &nbsp;&nbsp;-----}<br />
+&nbsp;&nbsp;---}<br />
 
 
 
