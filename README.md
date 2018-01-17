@@ -6,12 +6,19 @@ Javascript and hapi.js
 
 ### How does it works?
 In NoSQL DB, books are stored with the following information.<br />
-&nbsp;&nbsp;isbn<br />
-&nbsp;&nbsp;title<br />
-&nbsp;&nbsp;author<br />
-&nbsp;&nbsp;genre<br />
-&nbsp;&nbsp;publicationInfo includes publishedDate and publisher<br />
-&nbsp;&nbsp;availability includes lendingsituation<br />
+&nbsp;&nbsp;--isbn<br />
+&nbsp;&nbsp;--title<br />
+&nbsp;&nbsp;--author<br />
+&nbsp;&nbsp;--genre<br />
+&nbsp;&nbsp;--publicationInfo<br />
+&nbsp;&nbsp;----publishedDate<br />
+&nbsp;&nbsp;----publisher<br />
+&nbsp;&nbsp;--availability<br />
+&nbsp;&nbsp;----lendingsituation<br />
+&nbsp;&nbsp;------copy<br />
+&nbsp;&nbsp;------copyid<br />
+&nbsp;&nbsp;------edition<br />
+&nbsp;&nbsp;------borrower<br />
 
 
 
