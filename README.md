@@ -15,8 +15,8 @@ In NoSQL DB, books are stored with the following information.<br />
 &nbsp;&nbsp;----publisher<br />
 &nbsp;&nbsp;--}<br />
 &nbsp;&nbsp;--availability{<br />
-&nbsp;&nbsp;----lendingsituation{<br />
-&nbsp;&nbsp;------copy<br />
+&nbsp;&nbsp;----lendingsituation<br />
+&nbsp;&nbsp;----copy{<br />
 &nbsp;&nbsp;------copyid<br />
 &nbsp;&nbsp;------edition<br />
 &nbsp;&nbsp;------borrower<br />
