@@ -5,13 +5,13 @@ I made a book lending API. This API can keeps track of a small book lending oper
 Javascript and hapi.js
 
 ### How does it works?
-In NoSQL DB, books are stored with the following information.
-&nbsp;&nbsp;isbn
-&nbsp;&nbsp;title
-&nbsp;&nbsp;author
-&nbsp;&nbsp;genre
-&nbsp;&nbsp;publicationInfo includes publishedDate and publisher
-&nbsp;&nbsp;availability includes lendingsituation
+In NoSQL DB, books are stored with the following information.<br />
+&nbsp;&nbsp;isbn<br />
+&nbsp;&nbsp;title<br />
+&nbsp;&nbsp;author<br />
+&nbsp;&nbsp;genre<br />
+&nbsp;&nbsp;publicationInfo includes publishedDate and publisher<br />
+&nbsp;&nbsp;availability includes lendingsituation<br />
 
 
 
